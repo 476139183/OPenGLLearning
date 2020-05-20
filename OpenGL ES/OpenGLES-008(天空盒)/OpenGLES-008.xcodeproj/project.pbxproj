@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37387BC1246D42FB00B7D74C /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37387BC0246D42FB00B7D74C /* TestViewController.m */; };
+		37387BC6246D440E00B7D74C /* skybox2.png in Resources */ = {isa = PBXBuildFile; fileRef = 37387BC3246D440E00B7D74C /* skybox2.png */; };
+		37387BC7246D440E00B7D74C /* skybox3.png in Resources */ = {isa = PBXBuildFile; fileRef = 37387BC4246D440E00B7D74C /* skybox3.png */; };
+		37387BC8246D440E00B7D74C /* skybox1.png in Resources */ = {isa = PBXBuildFile; fileRef = 37387BC5246D440E00B7D74C /* skybox1.png */; };
+		37387BCC246D442200B7D74C /* starship.c in Sources */ = {isa = PBXBuildFile; fileRef = 37387BCA246D442200B7D74C /* starship.c */; };
+		37387BCF246D442D00B7D74C /* MySkyboxShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 37387BCD246D442D00B7D74C /* MySkyboxShader.vsh */; };
+		37387BD0246D442D00B7D74C /* MySkyboxShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 37387BCE246D442D00B7D74C /* MySkyboxShader.fsh */; };
+		37387BD3246D446A00B7D74C /* MySkyBoxEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 37387BD2246D446A00B7D74C /* MySkyBoxEffect.m */; };
+		37D6D1F9246BEF220053FA52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D6D1F8246BEF220053FA52 /* AppDelegate.m */; };
+		37D6D1FF246BEF220053FA52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D6D1FE246BEF220053FA52 /* ViewController.m */; };
+		37D6D202246BEF220053FA52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D6D200246BEF220053FA52 /* Main.storyboard */; };
+		37D6D204246BEF230053FA52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D6D203246BEF230053FA52 /* Assets.xcassets */; };
+		37D6D207246BEF230053FA52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D6D205246BEF230053FA52 /* LaunchScreen.storyboard */; };
+		37D6D20A246BEF230053FA52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D6D209246BEF230053FA52 /* main.m */; };
+		37D6D213246BF6C20053FA52 /* skybox1_test.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D6D210246BF6C20053FA52 /* skybox1_test.png */; };
+		37D6D214246BF6C20053FA52 /* skybox2_test.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D6D211246BF6C20053FA52 /* skybox2_test.png */; };
+		37D6D215246BF6C20053FA52 /* skybox3_test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37D6D212246BF6C20053FA52 /* skybox3_test.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37387BBF246D42FB00B7D74C /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		37387BC0246D42FB00B7D74C /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		37387BC3246D440E00B7D74C /* skybox2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox2.png; sourceTree = "<group>"; };
+		37387BC4246D440E00B7D74C /* skybox3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox3.png; sourceTree = "<group>"; };
+		37387BC5246D440E00B7D74C /* skybox1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox1.png; sourceTree = "<group>"; };
+		37387BCA246D442200B7D74C /* starship.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = starship.c; sourceTree = "<group>"; };
+		37387BCB246D442200B7D74C /* starship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = starship.h; sourceTree = "<group>"; };
+		37387BCD246D442D00B7D74C /* MySkyboxShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = MySkyboxShader.vsh; sourceTree = "<group>"; };
+		37387BCE246D442D00B7D74C /* MySkyboxShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = MySkyboxShader.fsh; sourceTree = "<group>"; };
+		37387BD1246D446A00B7D74C /* MySkyBoxEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySkyBoxEffect.h; sourceTree = "<group>"; };
+		37387BD2246D446A00B7D74C /* MySkyBoxEffect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySkyBoxEffect.m; sourceTree = "<group>"; };
+		37D6D1F4246BEF220053FA52 /* OpenGLES-008.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLES-008.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D6D1F7246BEF220053FA52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37D6D1F8246BEF220053FA52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37D6D1FD246BEF220053FA52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37D6D1FE246BEF220053FA52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37D6D201246BEF220053FA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37D6D203246BEF230053FA52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37D6D206246BEF230053FA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37D6D208246BEF230053FA52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D6D209246BEF230053FA52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37D6D210246BF6C20053FA52 /* skybox1_test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox1_test.png; sourceTree = "<group>"; };
+		37D6D211246BF6C20053FA52 /* skybox2_test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox2_test.png; sourceTree = "<group>"; };
+		37D6D212246BF6C20053FA52 /* skybox3_test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skybox3_test.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37D6D1F1246BEF220053FA52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37387BBE246D42E100B7D74C /* SkyImageSource */ = {
+			isa = PBXGroup;
+			children = (
+				37387BBF246D42FB00B7D74C /* TestViewController.h */,
+				37387BC0246D42FB00B7D74C /* TestViewController.m */,
+				37D6D210246BF6C20053FA52 /* skybox1_test.png */,
+				37D6D211246BF6C20053FA52 /* skybox2_test.png */,
+				37D6D212246BF6C20053FA52 /* skybox3_test.jpg */,
+			);
+			path = SkyImageSource;
+			sourceTree = "<group>";
+		};
+		37387BC2246D43C900B7D74C /* res */ = {
+			isa = PBXGroup;
+			children = (
+				37387BC5246D440E00B7D74C /* skybox1.png */,
+				37387BC3246D440E00B7D74C /* skybox2.png */,
+				37387BC4246D440E00B7D74C /* skybox3.png */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		37387BC9246D441700B7D74C /* kit */ = {
+			isa = PBXGroup;
+			children = (
+				37387BCB246D442200B7D74C /* starship.h */,
+				37387BCA246D442200B7D74C /* starship.c */,
+			);
+			path = kit;
+			sourceTree = "<group>";
+		};
+		37D6D1EB246BEF220053FA52 = {
+			isa = PBXGroup;
+			children = (
+				37D6D1F6246BEF220053FA52 /* OpenGLES-008 */,
+				37D6D1F5246BEF220053FA52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37D6D1F5246BEF220053FA52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37D6D1F4246BEF220053FA52 /* OpenGLES-008.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37D6D1F6246BEF220053FA52 /* OpenGLES-008 */ = {
+			isa = PBXGroup;
+			children = (
+				37D6D1F7246BEF220053FA52 /* AppDelegate.h */,
+				37D6D1F8246BEF220053FA52 /* AppDelegate.m */,
+				37D6D1FD246BEF220053FA52 /* ViewController.h */,
+				37D6D1FE246BEF220053FA52 /* ViewController.m */,
+				37387BD1246D446A00B7D74C /* MySkyBoxEffect.h */,
+				37387BD2246D446A00B7D74C /* MySkyBoxEffect.m */,
+				37387BCD246D442D00B7D74C /* MySkyboxShader.vsh */,
+				37387BCE246D442D00B7D74C /* MySkyboxShader.fsh */,
+				37387BC9246D441700B7D74C /* kit */,
+				37387BC2246D43C900B7D74C /* res */,
+				37387BBE246D42E100B7D74C /* SkyImageSource */,
+				37D6D200246BEF220053FA52 /* Main.storyboard */,
+				37D6D203246BEF230053FA52 /* Assets.xcassets */,
+				37D6D205246BEF230053FA52 /* LaunchScreen.storyboard */,
+				37D6D208246BEF230053FA52 /* Info.plist */,
+				37D6D209246BEF230053FA52 /* main.m */,
+			);
+			path = "OpenGLES-008";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37D6D1F3246BEF220053FA52 /* OpenGLES-008 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37D6D20D246BEF230053FA52 /* Build configuration list for PBXNativeTarget "OpenGLES-008" */;
+			buildPhases = (
+				37D6D1F0246BEF220053FA52 /* Sources */,
+				37D6D1F1246BEF220053FA52 /* Frameworks */,
+				37D6D1F2246BEF220053FA52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGLES-008";
+			productName = "OpenGLES-008";
+			productReference = 37D6D1F4246BEF220053FA52 /* OpenGLES-008.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37D6D1EC246BEF220053FA52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "段雨田";
+				TargetAttributes = {
+					37D6D1F3246BEF220053FA52 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 37D6D1EF246BEF220053FA52 /* Build configuration list for PBXProject "OpenGLES-008" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37D6D1EB246BEF220053FA52;
+			productRefGroup = 37D6D1F5246BEF220053FA52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37D6D1F3246BEF220053FA52 /* OpenGLES-008 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37D6D1F2246BEF220053FA52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D6D207246BEF230053FA52 /* LaunchScreen.storyboard in Resources */,
+				37387BC7246D440E00B7D74C /* skybox3.png in Resources */,
+				37387BCF246D442D00B7D74C /* MySkyboxShader.vsh in Resources */,
+				37D6D204246BEF230053FA52 /* Assets.xcassets in Resources */,
+				37387BC8246D440E00B7D74C /* skybox1.png in Resources */,
+				37D6D214246BF6C20053FA52 /* skybox2_test.png in Resources */,
+				37D6D215246BF6C20053FA52 /* skybox3_test.jpg in Resources */,
+				37387BC6246D440E00B7D74C /* skybox2.png in Resources */,
+				37D6D202246BEF220053FA52 /* Main.storyboard in Resources */,
+				37387BD0246D442D00B7D74C /* MySkyboxShader.fsh in Resources */,
+				37D6D213246BF6C20053FA52 /* skybox1_test.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37D6D1F0246BEF220053FA52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D6D1FF246BEF220053FA52 /* ViewController.m in Sources */,
+				37D6D1F9246BEF220053FA52 /* AppDelegate.m in Sources */,
+				37387BD3246D446A00B7D74C /* MySkyBoxEffect.m in Sources */,
+				37387BC1246D42FB00B7D74C /* TestViewController.m in Sources */,
+				37D6D20A246BEF230053FA52 /* main.m in Sources */,
+				37387BCC246D442200B7D74C /* starship.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37D6D200246BEF220053FA52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37D6D201246BEF220053FA52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37D6D205246BEF230053FA52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37D6D206246BEF230053FA52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37D6D20B246BEF230053FA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37D6D20C246BEF230053FA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37D6D20E246BEF230053FA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OpenGLES-008/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LingZhu.OpenGLES-008";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37D6D20F246BEF230053FA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OpenGLES-008/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LingZhu.OpenGLES-008";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37D6D1EF246BEF220053FA52 /* Build configuration list for PBXProject "OpenGLES-008" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D6D20B246BEF230053FA52 /* Debug */,
+				37D6D20C246BEF230053FA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37D6D20D246BEF230053FA52 /* Build configuration list for PBXNativeTarget "OpenGLES-008" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D6D20E246BEF230053FA52 /* Debug */,
+				37D6D20F246BEF230053FA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37D6D1EC246BEF220053FA52 /* Project object */;
+}
