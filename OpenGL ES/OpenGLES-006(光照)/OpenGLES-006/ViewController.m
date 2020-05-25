@@ -17,7 +17,7 @@
 //基本光照纹理
 @property (nonatomic, strong) GLKBaseEffect *baseEffect;
 //额外光照纹理
-@property (nonatomic, strong)GLKBaseEffect *extraEffect;
+@property (nonatomic, strong) GLKBaseEffect *extraEffect;
 //顶点缓存区
 @property (nonatomic, strong) AGLKVertexAttribArrayBuffer *vertexBuffer;
 //法线位置缓存区

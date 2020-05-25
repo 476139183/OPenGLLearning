@@ -64,13 +64,9 @@
   ///！ 设置 清屏 颜色
   glClearColor(0.1, 0.2, 0.3, 1.0);
   
-  
 }
 
-
 - (void)uploadVertexArray {
-  
-  
   
      //第一步：设置顶点数组
      //OpenGLES的世界坐标系是[-1, 1]，故而点(0, 0)是在屏幕的正中间。
@@ -133,10 +129,7 @@
   glVertexAttribPointer(GLKVertexAttribTexCoord0, 2, GL_FLOAT, GL_FALSE, sizeof(GLfloat) * 5, (GLfloat *)NULL + 3);
   
   
-  
   ///！
-  
-  
   
 }
 

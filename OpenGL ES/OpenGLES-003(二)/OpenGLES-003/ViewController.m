@@ -171,7 +171,6 @@
   
   ///! 11. 设置透视投影
   
-  
   CGSize size = self.view.bounds.size;
   
   ///! 获取 纵横比

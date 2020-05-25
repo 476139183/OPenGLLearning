@@ -152,6 +152,7 @@ typedef struct {
     //！ 设置透明度
     eagLayer.opaque = YES;
     
+    //TODO: [NSNumber numberWithBool:NO] 会让真机闪烁的bug
     //! 设置 参数
     eagLayer.drawableProperties = @{
       kEAGLDrawablePropertyRetainedBacking: [NSNumber numberWithBool:YES],
