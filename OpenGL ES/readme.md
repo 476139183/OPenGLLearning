@@ -7,13 +7,14 @@
 
 <p align="center">
 
-<img width=33% alt="wx20170601-170002 2x" src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gf4gd9pkvfj30gc0mmths.jpg"> 
+<img width=30% alt="wx20170601-170002 2x" src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gf4gd9pkvfj30gc0mmths.jpg"> 
 
-<font color='red'> 👈固定管线 and 可编程管线👉 </font>
+<img width=29% alt="wx20170601-170002 2x" src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gf4im6f2gfj30aa01cdfz.jpg"> 
 
-<img width=33% alt="wx20170601-170002 2x" src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gf4genb1hmj30f80mgwny.jpg"> 
+<img width=30% alt="wx20170601-170002 2x" src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gf4genb1hmj30f80mgwny.jpg" > 
 
 </p>
+
 
 
 ### 2. 旋转 金字塔 
@@ -22,11 +23,11 @@
 
 <p align="center">
 
-<img width=33% alt="wx20170601-170002 2x" src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gf4gidl0aij30jq0q2gn5.jpg"> 
+<img width=30% alt="wx20170601-170002 2x" src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gf4gidl0aij30jq0q2gn5.jpg"> 
 
-<font color='red'> 👈固定管线 and 可编程管线👉 </font>
+<img width=29% alt="wx20170601-170002 2x" src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gf4im6f2gfj30aa01cdfz.jpg"> 
 
-<img width=33% alt="wx20170601-170002 2x" src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gf4gthnqmsj30k80me3zp.jpg"> 
+<img width=30% alt="wx20170601-170002 2x" src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gf4gthnqmsj30k80me3zp.jpg"> 
 
 </p>
 
@@ -90,4 +91,3 @@ align=center>
 
 [^_^]:
     未完待续
-
